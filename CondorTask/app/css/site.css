@@ -1,0 +1,141 @@
+﻿/* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
+for details on configuring this project to bundle and minify static web assets. */
+
+a.navbar-brand {
+    white-space: normal;
+    text-align: center;
+    word-break: break-all;
+}
+
+/* Provide sufficient contrast against white background */
+a {
+    color: #0366d6;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #1b6ec2;
+    border-color: #1861ac;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+    color: #fff;
+    background-color: #1b6ec2;
+    border-color: #1861ac;
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+    font-size: 14px;
+}
+
+.border-top {
+    border-top: 1px solid #e5e5e5;
+}
+
+.border-bottom {
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.box-shadow {
+    box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+
+button.accept-policy {
+    font-size: 1rem;
+    line-height: inherit;
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    /* Margin bottom by footer height */
+    margin-bottom: 60px;
+}
+
+.my-footer {
+    background-color: #066666;
+    height: 43px;
+}
+
+.my-navbar {
+    background-color: #022929;
+}
+
+.my-nav-color {
+    background-color: #066666;
+}
+
+.my-text {
+    text-decoration: underline;
+    color: #a4bcbc;
+}
+
+.boxm {
+    background-color: #1e3a3a;
+    width: unset;
+    border: 10px solid #066666;
+    /*margin: 15px;*/
+    padding: 25px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    color: white;
+}
+
+.boxm-right {
+    background-color: #022929;
+    width: unset;
+    border: 10px solid #055252;
+    /*margin: 15px;*/
+    padding: 25px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    color: white;
+}
+
+hr {
+    background-color: #333333;
+}
+
+.envelope-margin-left {
+    margin-left: 20px;
+}
+
+.dropdown-menu .dropdown-item:hover, .dropdown-menu .dropdown-item:focus {
+    background-image: none !important;
+}
+
+.dropdown-menu > a:hover, .dropdown-menu > a:focus {
+    background-color: #1e3a3a;
+}
+
+.logo {
+   position:fixed;
+   margin-top: 70px;
+}
+
+@media only screen and (max-width: 768px) {
+    [class*="col-"] {
+        width: 110%;
+        
+    }
+    
+    .logo {
+        display: none;
+    }
+}
+
+@media (min-width: 768px) {
+    .nav-bar-collapse.collapse {
+        display: block !important;
+        height: auto !important;
+        padding-bottom: 0;
+        overflow: visible !important;
+    }
+}
